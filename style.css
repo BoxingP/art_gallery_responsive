@@ -159,4 +159,34 @@ li {
 		clear: both;
 	}
 
+	.content {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.gallery h2 {
+		text-align: center;
+	}
+
+	.gallery article {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	figure {
+		position: relative;
+		background-color: #585a5b;
+	}
+
+	figcaption {
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+		text-align: right;
+	}
+
+	figcaption h4 {
+		color: white;
+	}
 }
