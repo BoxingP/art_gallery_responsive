@@ -7,7 +7,7 @@ target ÷ context = result
 
 ###Flexible Grid
 ####Flexible Font
-use <strong style="color:green">em</strong> as unit of font-size
+use <strong style="color:green">em/rem</strong> as unit of font-size
 ```sh
 h1 {
   font-size: 2em;
