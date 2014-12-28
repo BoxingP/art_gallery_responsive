@@ -48,6 +48,11 @@ all, screen, print...
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
+####Retina
+```sh
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {}re
+```
+
 ##Reference
 ###Readings
 [responsive-web-design](http://alistapart.com/article/responsive-web-design)
