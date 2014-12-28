@@ -113,6 +113,7 @@ li {
 
 .gallery {
 	width: 70%;
+	float: left;
 }
 
 .gallery figure {
@@ -151,4 +152,11 @@ li {
 	.nav {
 		margin-right: 0;
 	}
+
+	.sidebar, .gallery {
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+
 }
