@@ -29,7 +29,7 @@ li {
 }
 
 .header, .footer, .content {
-	padding: 20px 8%;
+	padding: 20px 8% 40px 8%;
 }
 
 .header {
@@ -43,13 +43,12 @@ li {
 
 .nav {
 	float: right;
-	margin-top: -30px;
+	margin-top: -40px;
 	margin-right: 8%;
 }
 
 .nav li {
-	display: block;
-	float: left;
+	display: inline-block;
 	margin-left: 15px;
 	width: 60px;
 	line-height: 30px;
@@ -141,4 +140,15 @@ li {
 	background-color: #2d3033;
 	text-align: center;
 	color: #a5a6a7;
+}
+
+@media only screen and (max-width: 640px) {
+	.header, .nav {
+		float: none;
+		text-align: center;
+	}
+
+	.nav {
+		margin-right: 0;
+	}
 }
