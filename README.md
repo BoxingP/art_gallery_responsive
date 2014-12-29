@@ -7,7 +7,7 @@ target ÷ context = result
 
 ###Flexible Grid
 ####Flexible Font
-use <strong style="color:green">em</strong> as unit of font-size
+use <strong style="color:green">em/rem</strong> as unit of font-size
 ```sh
 h1 {
   font-size: 2em;
@@ -46,6 +46,11 @@ all, screen, print...
 ####Viewpoint
 ```sh
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
+####Retina
+```sh
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {}
 ```
 
 ##Reference
