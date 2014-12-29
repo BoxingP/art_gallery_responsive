@@ -50,7 +50,7 @@ all, screen, print...
 
 ####Retina
 ```sh
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {}re
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {}
 ```
 
 ##Reference
